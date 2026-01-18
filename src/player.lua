@@ -36,7 +36,7 @@ function Player:handle_keys()
   if btn(2) then
     if self.grounded
     then
-      self.vel.y = - 4.0
+      self.vel.y = - 6.0
     end
   end
   -- could add a functionality to dash downwards
@@ -44,7 +44,7 @@ function Player:handle_keys()
 end
 
 function Player:movement()
-  self.vel.y = self.vel.y + 0.3
+  self.vel.y = self.vel.y + 0.5
 
   next = Vec2.new {
     x=(self.pos.x + self.vel.x - 64.0) % (120 * 8) + 64.0,
