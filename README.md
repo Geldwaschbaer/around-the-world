@@ -1,7 +1,7 @@
-<center>
+<div align="center">
   <img src="images/banner.png">
   <h1>Around the World</h1>
-</center>
+</div>
 
 You are a cute little dinosaur who loves running around on his tiny planet! You used to have a cute little dinosaur-friend called Dino D. They loved stargazing for hours! But one fateful day, while running just barely below the speed of light, Dino D crashed into a not-so-cute and not-so-little wall! Dino D died instantly and very painfully! Don't be like Dino D. Don't run into walls. *(Also applies to real live!)*
 
