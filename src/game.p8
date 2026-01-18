@@ -7,6 +7,7 @@ __lua__
 #include utils.lua
 #include state.lua
 #include player.lua
+#include draw.lua
 #include main.lua
 
 __gfx__

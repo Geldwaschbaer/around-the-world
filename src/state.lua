@@ -1,4 +1,4 @@
----@class
+---@class State
 State = {}
 State.__index = State
 
@@ -32,9 +32,9 @@ Running = State.new(
     player:update()
   end,
   function ()
-    map()
-    camera(player.pos.x - 16., 0.)
-    player:draw()
+    draw()
+    print("score: " .. player.score, 0, 2, 2)
+    print("record: " .. high_score, 0, 10, 2)
   end
 )
 
