@@ -10,7 +10,7 @@ function _init()
     palt(15, true)
     palt(0, false)
     -- save file
-    cartdata("geldwaschbaer_questpresso_0")
+    cartdata("geldwaschbaer_around-the-world_0")
     high_score = dget(0)
     starting_hscore = high_score
 end

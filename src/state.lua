@@ -50,8 +50,10 @@ Lost = State.new(
   end,
   function ()
     camera(0., 0.)
-    local msg = "you lost!"
-    print(msg, 64 - #msg * 2, 64 - 8, 8)
+    local msg = "you died!"
+    print(msg, 64 - #msg * 2, 64 - 10, 8)
+    local msg = "dino d would be sad..."
+    print(msg, 64 - #msg * 2, 64 - 2, 3)
     local msg = "score: " .. player.score
     print(msg, 64 - #msg * 2, 64 + 8, 7)
   end

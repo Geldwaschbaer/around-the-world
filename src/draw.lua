@@ -10,7 +10,9 @@ function draw()
     -- draw planet base circle
     spr(6, 8, 0, 8, 8)
     circfill(planet_pos.x, planet_pos.y, planet_radius, 11)
-    circfill(planet_pos.x, planet_pos.y, planet_radius-10, 4)
+    circfill(planet_pos.x, planet_pos.y, planet_radius-8, 4)
+    circfill(planet_pos.x, planet_pos.y, planet_radius-24, 5)
+    circfill(planet_pos.x, planet_pos.y, planet_radius-70, 9)
 
     -- scan for blocks near player
     -- then draw them to the circle
