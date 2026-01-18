@@ -76,9 +76,15 @@ function Player:collission()
     if player.score > high_score then
       high_score = player.score
       dset(0, high_score)
+      sfx(2)
+    else
+      sfx(1)
     end
   else
     self.score += 1
+    if self.score % 200 == 0 then
+      sfx(0)
+    end
   end
 end
 
