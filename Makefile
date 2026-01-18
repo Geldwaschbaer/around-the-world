@@ -1,10 +1,6 @@
-path = ~/.lexaloffle/pico-8/carts/upcoming-game/
+path = ~/.lexaloffle/pico-8/carts/around-the-world/
 
-all: test install
-
-test:
-	# test lua files for errors
-	@lua _tests.lua
+all: clean install
 
 install:
 	# copy new game files
@@ -13,6 +9,6 @@ install:
 
 clean:
 	# remove old files
-	@rm -r ${path}
+	@rm -fr ${path}
 
 reinstall: clean install

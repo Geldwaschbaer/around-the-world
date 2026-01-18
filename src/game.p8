@@ -1,7 +1,7 @@
 pico-8 cartridge // http://www.pico-8.com
 version 42
 __lua__
--- game
+-- around the world
 -- by leo and karl
 
 #include utils.lua
